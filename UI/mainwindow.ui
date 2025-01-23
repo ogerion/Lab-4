@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>771</width>
+    <height>583</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>20</y>
+      <width>81</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>3</number>
+    </property>
+    <property name="maximum">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>0</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Size</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>70</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>You are playing for O</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="win">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>250</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 255, 0);
+color: rgb(0, 0, 0);
+font: 26pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Congrats!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lose">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>250</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 0, 0);
+color: rgb(0, 0, 0);
+font: 26pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Fail!(</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>771</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuExit">
+    <property name="title">
+     <string>Exit</string>
+    </property>
+   </widget>
+   <addaction name="menuExit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
